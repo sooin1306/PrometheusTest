@@ -50,6 +50,11 @@ dependencies {
     // Thymeleaf LEGACYHTML5 mode
     compile 'net.sourceforge.nekohtml:nekohtml:1.9.22'
 
+    // Actuator & Prometheus
+    compile 'org.springframework.boot:spring-boot-starter-actuator'
+    compile 'io.micrometer:micrometer-spring-legacy:1.3.20'
+    compile 'io.micrometer:micrometer-registry-prometheus:1.3.20'
+
     // War
     providedRuntime 'org.springframework.boot:spring-boot-starter-tomcat'
 
