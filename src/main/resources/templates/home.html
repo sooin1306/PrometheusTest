@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html xmlns:th="http://www.thymeleaf.org">
+<head>
+    <meta charset="UTF-8"/>
+    <title>Prometheus Test - Home</title>
+    <style type="text/css">
+        body { font-family: Arial, sans-serif; max-width: 800px; margin: 0 auto; padding: 20px; }
+        .nav { margin-bottom: 20px; }
+        .nav a { margin-right: 10px; }
+        .btn { padding: 10px 20px; background: #007bff; color: white; text-decoration: none; border-radius: 4px; }
+    </style>
+</head>
+<body>
+    <h1>Welcome to Board Application</h1>
+    <p>This is a simple board application for Prometheus testing.</p>
+    <div class="nav">
+        <a th:href="@{/login}" class="btn">Login</a>
+        <a th:href="@{/register}" class="btn">Register</a>
+    </div>
+</body>
+</html>
